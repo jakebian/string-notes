@@ -1,0 +1,883 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"selec",
+				"selectedNode"
+			],
+			[
+				"selectedNo",
+				"selectedNodeData"
+			],
+			[
+				"desele",
+				"deselectedNode"
+			],
+			[
+				"get",
+				"getTarget"
+			],
+			[
+				"linkMo",
+				"isLinkMode"
+			],
+			[
+				"GraphEditor",
+				"GraphEditorService	alias"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"border-ty",
+				"border-style"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"square",
+				"squareVertices"
+			],
+			[
+				"light",
+				"lightPos"
+			],
+			[
+				"glut",
+				"glutPostRedisplay"
+			],
+			[
+				"draw",
+				"drawTriangle"
+			],
+			[
+				"print",
+				"printArray"
+			],
+			[
+				"gl",
+				"glPushMatrix"
+			],
+			[
+				"browserif",
+				"browserifyConfig"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "notes.tex",
+			"settings":
+			{
+				"buffer_size": 4856,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 201.0,
+		"last_filter": "instal",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sublimelinter",
+				"SublimeLinter: Clear Caches"
+			],
+			[
+				"sublime",
+				"SublimeLinter: Show Errors on Save"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"packag",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Add Repository"
+			],
+			[
+				"install",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"INSTAL",
+				"Package Control: Install Package"
+			],
+			[
+				"setting",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"ins",
+				"Package Control: Advanced Install Package"
+			]
+		],
+		"width": 542.0
+	},
+	"console":
+	{
+		"height": 714.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"cd ~/Library/Application\\ Support/Sublime\\ Text\\ 3/Packages/",
+			"LaTeXTools.sublime-settings",
+			"sublime.run_command(\"latextools_migrate\")",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/jake/school/strings/notes"
+	],
+	"file_history":
+	[
+		"/home/jake/school/strings/notes/notes.tex",
+		"/home/jake/school/gr/hw1/notes.tex",
+		"/home/jake/school/gr/hw1/notes.sublime-project",
+		"/home/jake/work/a-model-talk/notes.tex",
+		"/home/jake/work/a-model-talk/plan.md",
+		"/home/jake/work/a-model-talk/sections/intro.tex",
+		"/home/jake/projects/pie-tasks/package.json",
+		"/home/jake/projects/pie-tasks/gulpfile.js",
+		"/home/jake/projects/pie-tasks/node_modules/jquery/src/event.js",
+		"/home/jake/projects/alkanet-client/src/components/app.js",
+		"/home/jake/projects/alkanet-client/style/style.scss",
+		"/home/jake/projects/alkanet-client/style/graph.scss",
+		"/home/jake/projects/alkanet-client/src/stores/graph-store.js",
+		"/home/jake/projects/alkanet-client/src/constants/graph-consts.js",
+		"/home/jake/projects/alkanet-client/src/util/d3-util.js",
+		"/home/jake/projects/alkanet-client/alkanet-react.sublime-project",
+		"/home/jake/projects/alkanet-client/index.html",
+		"/home/jake/projects/alkanet-client/src/components/graph/graph.js",
+		"/home/jake/projects/alkanet-client/src/components/graph/node-tip.js",
+		"/home/jake/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/jake/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/jake/projects/alkanet-client/gulpfile.js",
+		"/home/jake/projects/alkanet-client/README.md",
+		"/home/jake/projects/alkanet-client/build/css/graph.css",
+		"/home/jake/projects/alkanet-client/.gitignore",
+		"/home/jake/.config/sublime-text-3/Packages/Babel/Babel.sublime-settings",
+		"/home/jake/projects/alkanet-client/src/actions/graph-actions.js",
+		"/home/jake/projects/alkanet-client/src/model/Person.js",
+		"/home/jake/projects/alkanet-client/src/app.js",
+		"/home/jake/projects/alkanet-react/index.html",
+		"/home/jake/projects/alkanet-react/.eslintrc",
+		"/home/jake/projects/alkanet-react/gulpfile.js",
+		"/home/jake/projects/alkanet-react/alkanet-react.sublime-project",
+		"/home/jake/projects/alkanet-react/package.json",
+		"/home/jake/projects/alkanet-client/templates/graph-editor.html",
+		"/home/jake/projects/alkanet-client/app/graph-vis.service.ts",
+		"/home/jake/projects/alkanet-client/app/interfaces/graph.ts",
+		"/home/jake/projects/alkanet-client/app/graph-vis.component.ts",
+		"/home/jake/eclipse-workspace/archive/webapps/style-guide/webapp/public/js/sg/sg-ng-graph.js",
+		"/home/jake/eclipse-workspace/archive/webapps/style-guide/webapp/public/js/sg/services/drawing-service.js",
+		"/home/jake/projects/alkanet-client/app/graph-editor.component.ts",
+		"/home/jake/projects/alkanet-client/templates/app.html",
+		"/home/jake/projects/alkanet-client/app/app.component.ts",
+		"/home/jake/projects/alkanet-client/templates/graph-vis.html",
+		"/home/jake/projects/alkanet-client/package.json",
+		"/home/jake/projects/alkanet-client/style/main.scss",
+		"/home/jake/projects/alkanet-client/app/graph-editor.service.ts",
+		"/home/jake/projects/alkanet-client/alkanet-client.sublime-project",
+		"/home/jake/projects/alkanet-client/style/graph-editor.scss",
+		"/home/jake/projects/alkanet-client/css/main.css",
+		"/home/jake/projects/alkanet-client/dev-scripts/render-sass.js",
+		"/home/jake/projects/alkanet-client/style/main.scs",
+		"/home/jake/projects/alkanet-client/app/graph-editor.service.js",
+		"/home/jake/projects/alkanet-client/readme.md",
+		"/home/jake/projects/alkanet-client/node_modules/angular2/core.js",
+		"/home/jake/projects/alkanet-client/app/boot.ts",
+		"/home/jake/projects/alkanet-client/app/../.gitignore",
+		"/home/jake/projects/alkanet-client/templates/vis.html",
+		"/home/jake/projects/alkanet-client/init.js",
+		"/home/jake/projects/alkanet-client/tsconfig.json",
+		"/home/jake/libs/keras/examples/imdb_bidirectional_lstm.py",
+		"/home/jake/libs/keras/examples/addition_rnn.py",
+		"/home/jake/libs/keras/examples/mnist_irnn.py",
+		"/home/jake/projects/alkanet/brain/core/bridge.py",
+		"/home/jake/projects/alkanet/api/controllers/NetController.js",
+		"/home/jake/projects/alkanet/brain/train.py",
+		"/home/jake/libs/keras/examples/babi_rnn.py",
+		"/home/jake/projects/alkanet/api/controllers/NeuronController.js",
+		"/home/jake/projects/alkanet/api/controllers/LayerController.js",
+		"/home/jake/.config/sublime-text-3/Packages/User/Pylinter.sublime-settings",
+		"/home/jake/.config/sublime-text-3/Packages/Pylinter/Pylinter.sublime-settings",
+		"/home/jake/projects/alkanet/api/models/Net.js",
+		"/home/jake/projects/alkanet/README.md",
+		"/home/jake/Desktop/justin.html",
+		"/home/jake/school/qft/final/draft.tex",
+		"/home/jake/school/hw9",
+		"/home/jake/school/graphics/hw4/app/app.h",
+		"/home/jake/school/graphics/hw4/app/drawing.h",
+		"/home/jake/school/graphics/hw4/app/common/globals.h",
+		"/home/jake/school/graphics/hw4/main.c",
+		"/home/jake/school/graphics/hw4/app/globals.h",
+		"/home/jake/school/graphics/hw4/app/intersection-util.h",
+		"/home/jake/school/graphics/hw4/app/tracer.h",
+		"/home/jake/Desktop/sample.c",
+		"/home/jake/school/graphics/hw4/app/structs.h",
+		"/home/jake/school/graphics/hw4/app/vec-util.h",
+		"/home/jake/school/graphics/hw4/app/ray-util.h",
+		"/home/jake/school/diffgeo/hw7/draft.tex",
+		"/home/jake/school/qft/hw9/draft.tex",
+		"/home/jake/school/diffgeo/hw6/draft.tex",
+		"/home/jake/school/qft/hw8/draft.tex",
+		"/home/jake/Desktop/schoolplan.py",
+		"/home/jake/Desktop/schoolplan.h",
+		"/home/jake/school/graphics/hw3/lib2d/drawing/polygon.h",
+		"/home/jake/school/graphics/hw3/lib3d/transforms.h",
+		"/home/jake/school/graphics/hw3/todo",
+		"/home/jake/school/graphics/hw3/scene.h",
+		"/home/jake/school/graphics/hw3/lib2d/drawing/line.h",
+		"/home/jake/school/graphics/hw3/lib3d/lib.h",
+		"/home/jake/school/graphics/hw3/main.c",
+		"/home/jake/school/graphics/hw3/lib3d/types.h",
+		"/home/jake/school/graphics/hw3/lib/globals.h",
+		"/home/jake/school/graphics/hw3/lib/drawing/line.h",
+		"/home/jake/school/graphics/hw3/lib3d/render.h",
+		"/home/jake/school/graphics/hw3/lib3d/world.h",
+		"/home/jake/school/graphics/hw3/lib3d/globals.h",
+		"/home/jake/school/graphics/hw3/lib/drawing/polygon.h",
+		"/home/jake/school/graphics/hw3/lib/util/polygon-util.h",
+		"/home/jake/school/graphics/hw3/drawing/line.h",
+		"/home/jake/school/graphics/hw3/lib/lib.h",
+		"/home/jake/school/graphics/hw3/jakegl/jakegl.h",
+		"/home/jake/school/graphics/hw3/util/graphics-util.h",
+		"/home/jake/school/graphics/hw3/util/util.h",
+		"/home/jake/school/graphics/hw3/drawing/point.h",
+		"/home/jake/school/graphics/hw3/drawing/polygon.h",
+		"/home/jake/school/graphics/hw3/util/polygon-util.h",
+		"/home/jake/school/graphics/hw3/globals.h",
+		"/home/jake/school/graphics/hw3/drawing/drawing.h",
+		"/home/jake/school/graphics/hw3/img-util.h",
+		"/home/jake/school/graphics/hw3/constants.h",
+		"/home/jake/school/graphics/hw3/graphics-util.h",
+		"/home/jake/school/graphics/hw2/main.c",
+		"/home/jake/school/graphs/hw4/draft.tex",
+		"/home/jake/school/graphics/hw2/handlers.h",
+		"/home/jake/school/graphics/hw2/fancycube.h",
+		"/home/jake/school/graphs/hw3/draft.tex",
+		"/home/jake/school/qft/hw5/draft.tex",
+		"/home/jake/Desktop/archive/ucsb courses"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 87.0,
+		"where_history":
+		[
+			"/home/jake/projects/alkanet-react",
+			"/home/jake/libs/keras/examples",
+			"/home/jake/work/citegraph/node_modules/material-ui/lib",
+			"/home/jake/work/citegraph/client/js/src",
+			"/home/jake/work/flux-es6-sandbox/client/js/src",
+			"/home/jake/work/moduli-amplitude/sections/motivation",
+			"/home/jake/Desktop/chatboard/public/js",
+			"/home/jake/Desktop/chatboard/public",
+			"/home/jake/Desktop/d4",
+			"/home/jake/Desktop/d4/d4",
+			"/home/jake/eclipse-workspace/webapps",
+			"/home/jake/eclipse-workspace/webapps/style-guide/webapp/public_frontend/static/js",
+			"/home/jake/eclipse-workspace/webapps",
+			"/home/jake/eclipse-workspace",
+			"/home/jake/eclipse-workspace/webapps",
+			"/home/jake/eclipse-workspace",
+			"/home/jake/eclipse-workspace/webapps",
+			"/home/jake/eclipse-workspace",
+			"/home/jake/eclipse-workspace/webapps/style-guide",
+			"/home/jake/eclipse-workspace/webapps"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"symmetric in",
+			"talk",
+			"watchify",
+			"persistent",
+			"domelem",
+			"domElem",
+			"ReactDOM",
+			"this.state",
+			"this.state.selectedNode",
+			"selectednode",
+			"selectedNode",
+			".name",
+			"GraphDispatcher",
+			"selection",
+			"this.state.selectedNode",
+			"updatevis",
+			"setstate",
+			"GraphDispatcher",
+			"drawnode",
+			"mouseout",
+			"select",
+			"drawnodes",
+			"selectedNode",
+			"update(",
+			"update",
+			"nodeattr",
+			"mousedown",
+			"getTarget",
+			"getTargetNode",
+			".on(",
+			"handleContainerMouseup",
+			"state",
+			"Gra",
+			"islinkmode",
+			"fixnodes",
+			"fixNodes",
+			".nodes",
+			"force.",
+			"defaultbeh",
+			".start()",
+			"fixNodes",
+			"stopprop",
+			"fixNodes",
+			"scale",
+			"console.log(",
+			"mousemove",
+			"'line",
+			"handleMousedown",
+			"locals.pendingline",
+			"handleContainerMousemove",
+			"tx",
+			"mousedown",
+			"mouseup",
+			"handleContainerMouseup",
+			"handleMouseup",
+			"stopEvtProp",
+			".newLink",
+			"state",
+			"Update(",
+			"event.",
+			"handleMouseDown",
+			"behavior",
+			"fixNodes",
+			".data.nodes",
+			"drawNodes",
+			"drawGraph(",
+			"updateVis",
+			"handleMouseIn",
+			".nodes",
+			"fixNodes",
+			".force",
+			"force.drag",
+			"dist",
+			"drag",
+			"links",
+			"drag",
+			"\"",
+			"color",
+			"\"",
+			"module",
+			"Graph",
+			"graph",
+			"g",
+			"QUERY_HIDDEN_SIZE",
+			"batch",
+			"batch_size",
+			"nb_classes",
+			"nb_epoch",
+			"data_augmentation",
+			"lineParam",
+			"->",
+			"Object",
+			"Point",
+			"isShadow",
+			"\\phi_",
+			"drawPolygon",
+			"resetEdgeMap",
+			"addToPlgEdge",
+			"addtop",
+			"fillPolygon",
+			"drawpoint",
+			"linefrompoints",
+			"drawLine",
+			"addToPlgEdge",
+			"getIntersection",
+			"addPolygonPoint",
+			"getIntersectPts",
+			"maxColor",
+			"y_max",
+			"x_max",
+			"rankd",
+			"Pi",
+			"corr",
+			"dt",
+			"d",
+			"j-n",
+			"we ",
+			"we",
+			"glMatrixMode",
+			"glShadeModel",
+			"glutPostRedisplay",
+			"\\lambda",
+			"nabla",
+			"paragraph",
+			"subsubsection",
+			"pu to",
+			"Pi",
+			"drawtriangle"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'",
+			"rayParam",
+			"Vec",
+			"yMax",
+			"xMax",
+			"prod",
+			"Delta",
+			"subsubsection*",
+			"pi",
+			"M_{bb}",
+			"M_{ab}",
+			"M_{aa}",
+			"g^{-1}",
+			"sphereCoords",
+			"spherical",
+			"d4",
+			"	",
+			"",
+			"	",
+			"",
+			"	",
+			"	friend",
+			"	",
+			"    ",
+			"&#9;",
+			"U+0009",
+			"    ",
+			"uw",
+			"'",
+			", ",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "notes.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4856,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3475,
+								3475
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 11701.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 142.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "notes.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"event",
+				"node_modules/jquery/src/event.js"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"tip",
+				"src/components/graph/node-tip.js"
+			],
+			[
+				"app.",
+				"src/components/app.js"
+			],
+			[
+				".subl",
+				"alkanet-react.sublime-project"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"d3uti",
+				"src/util/d3-util.js"
+			],
+			[
+				"graphstore",
+				"src/stores/graph-store.js"
+			],
+			[
+				"graph.scs",
+				"style/graph.scss"
+			],
+			[
+				"d3ut",
+				"src/util/d3-util.js"
+			],
+			[
+				"app.js",
+				"src/components/app.js"
+			],
+			[
+				"graph-cons",
+				"src/constants/graph-consts.js"
+			],
+			[
+				"node-tip",
+				"src/components/graph/node-tip.js"
+			],
+			[
+				"d3u",
+				"src/util/d3-util.js"
+			],
+			[
+				"graph.js",
+				"src/components/graph/graph.js"
+			],
+			[
+				"graphconst",
+				"src/constants/graph-consts.js"
+			],
+			[
+				"styl",
+				"style/style.scss"
+			],
+			[
+				"st",
+				"style/graph.scss"
+			],
+			[
+				"graph.sc",
+				"style/graph.scss"
+			],
+			[
+				"d3",
+				"src/util/d3-util.js"
+			],
+			[
+				"graph-sto",
+				"src/stores/graph-store.js"
+			],
+			[
+				".html",
+				"index.html"
+			],
+			[
+				"sty",
+				"style/graph.scss"
+			],
+			[
+				"graphst",
+				"src/stores/graph-store.js"
+			],
+			[
+				"",
+				"build/css/graph.css"
+			],
+			[
+				"giti",
+				".gitignore"
+			],
+			[
+				"app",
+				"src/components/app.js"
+			],
+			[
+				"graphc",
+				"src/constants/graph-consts.js"
+			],
+			[
+				"graphco",
+				"src/constants/graph-consts.js"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"graphjs",
+				"src/components/graph/graph.js"
+			],
+			[
+				"graph",
+				"style/graph.scss"
+			],
+			[
+				"graph-e",
+				"templates/graph-editor.html"
+			],
+			[
+				"service",
+				"app/graph-vis.service.ts"
+			],
+			[
+				"graphedito",
+				"templates/graph-editor.html"
+			],
+			[
+				"graphe",
+				"app/graph-editor.component.ts"
+			],
+			[
+				"graphcomp",
+				"app/graph-vis.component.ts"
+			],
+			[
+				"graph-vis.ser",
+				"app/graph-vis.service.ts"
+			],
+			[
+				"graphviss",
+				"app/graph-vis.service.ts"
+			],
+			[
+				"graphvis",
+				"app/graph-vis.component.ts"
+			],
+			[
+				"servi",
+				"app/graph-editor.service.ts"
+			],
+			[
+				"sublime-pro",
+				"alkanet-client.sublime-project"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"core.js",
+				"node_modules/angular2/core.js"
+			],
+			[
+				"model",
+				"config/models.js"
+			],
+			[
+				"connec",
+				"config/connections.js"
+			],
+			[
+				"main",
+				"main.c"
+			],
+			[
+				"glo",
+				"app/globals.h"
+			],
+			[
+				"str",
+				"app/structs.h"
+			],
+			[
+				"pol",
+				"lib2d/drawing/polygon.h"
+			],
+			[
+				"line",
+				"lib2d/drawing/line.h"
+			],
+			[
+				"tod",
+				"todo"
+			],
+			[
+				"point",
+				"lib/drawing/point.h"
+			],
+			[
+				"index.html",
+				"public/index.html"
+			],
+			[
+				"bower.js",
+				"public/bower.json"
+			],
+			[
+				"room.html",
+				"public/templates/room.html"
+			],
+			[
+				"firebaseserv",
+				"public/js/common/firebase-service.js"
+			],
+			[
+				"board.js",
+				"public/js/components/board.js"
+			],
+			[
+				"d4.js",
+				"d4/src/d4.js"
+			],
+			[
+				"gruntfile",
+				"d4/Gruntfile.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
