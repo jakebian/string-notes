@@ -4,7 +4,7 @@
 \usepackage{amssymb}
 \usepackage{amsthm}
 
-\title{Some Elementary Notes on the String Moduli Space}
+\title{Some Notes on String Theory}
 
 \author{Jake Bian}
 
@@ -16,7 +16,7 @@
     \maketitle
 
     \abstract{
-        I explain some aspects of the geometric setting for string theory.
+        These notes aim to clarify the geometric setting of some constructions in string theory.
     }
 
 
@@ -48,9 +48,7 @@
 
         \paragraph{The space of induced metrics} 
 
-            From the space $\tilde E$ all allowed embeddings, we would now like to select special elements which minimize a certain functional. One might write this functional as $S[e]$ for $e \in \tilde E$.
-
-            A simple functional one might want to consider is one which computs the area of the surface $e(\Sigma) \subset M$ under the Riemannian structure on $M$. One then immediately realizes that writing the area formula in terms of the embedding map $e$ is cumbersome. Instead it is much easier to write it in terms of the induced metric on the surface by the embedding. So instead of looking at the space of maps $\tilde E$, we want to consider the space of induced metrics
+            It is also useful to consider the space of induced metrics.
 
             \begin{equation}
                 \tilde F \equiv \{e^* g_M | e \in \tilde E \} \subset T\Sigma^{\otimes 2}
@@ -84,17 +82,47 @@
 
                 Given a ``gauge choice'' $s: \tilde E \to E$ as described above, one can simply considers the variational problem with the domain $s(\tilde E)$.
 
-            \subsubsection{Examples}
-                \paragraph{Static Gauge}
-                    Let $\sigma, \tau$ be local coordinates on $\Sigma$. For each such local chart, one defines the following.
 
-                    Let $[e] \in \tilde E$, define $e_S \in [e]$ as the embedding such that $\forall p \in M$ $e_S^0|_p = \tau|_p$.
+        \section{Actions}
 
+            \subsection{Nambu-Goto Action}
+                Define the Nambu-Goto action as
 
-                    Define then the gauge choice $s$ to be 
-                    \begin{equation}
-                        s: \tilde E \to E, ~~ [e] \mapsto e_S
-                    \end{equation}
+                \begin{equation}
+                    S_{NG} \in C^\infty(\tilde E), ~~ [e] \mapsto \int_\Sigma \omega_{e^*g_M}
+                \end{equation}
+
+                where $\omega_g$ denote the canonical Riemannian volume form associated with (pseudo) Riemannian metric $g$. Note that this is well-defined. Suppose $e' \sim e$, then $e' = e \circ f$ where $f$ is some automorphism, then
+
+                \begin{equation}
+                    S_{NG}[e'] = \int_\Sigma \omega_{e'^*g_M} = \int_\Sigma \omega_{f^*e^*g_M} = \int_\Sigma f^* \omega_{e^* g_M} = \int_{f^{-1}(\Sigma) = \Sigma} \omega_{e^* g_M} = S_{NG}[e]
+                \end{equation}
+
+                where we used the fact that under a diffeomorphism, the volume form obeys $f^*\omega_{g} = \omega_{f^*g}$
+
+            \subsection{Polyakov Action}
+                We now consider the following functional.
+
+                \begin{align}
+                    S_P: \tilde E \times Met(\Sigma) \to \mathbb R\\
+                    ([e], h) \mapsto \int_\Sigma \langle h^{-1}, e^*g_M \rangle\omega_h  
+                \end{align}
+
+                where $Met(\Sigma)$ denotes the space of all signature $(1, 1)$ metrics on $\Sigma$, and $\omega_h$ is again the associated Riemannian volume form. i.e. all smooth symmetric rank-(2, 0) tensor fields satisfying the pseudo-riemannian condition. $h^{-1} \in T\Sigma^{\otimes 2}$ is the inverse metric, and $\langle \cdot, \cdot \rangle$ is the usual contraction using the metric inner product, in this case a map $T\Sigma^{\otimes 2} \otimes T\Sigma^{*\otimes 2} \to \mathbb R$.
+
+                The Polyakov action is related to the Nambu action given above very simply. Observe
+
+                \begin{equation}
+                    S_P[e, e^*g_M] = \int_\Sigma \langle (e^*g_M)^{-1}, e^*g_M \rangle\omega_{e^*g_M}   =  S_{NG}[e]
+                \end{equation}
+
+                One can verify the following lemma through a brute force computation
+
+                \begin{equation}
+                    \frac{\partial S_P[e, h]}{\partial h} = 0 \implies h = e^*g_M
+                \end{equation}
+
+                These two statements together says that one can perform the variation problem for $S_P$ in the argument $h$, substitude the result back in $S_P$, and retrieve $S_{NG}$.
 
 
 \end{document}
